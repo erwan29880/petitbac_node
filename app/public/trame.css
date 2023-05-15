@@ -1,0 +1,95 @@
+body {
+    width:100%;
+    margin: 0px 0px;
+    font-family: 'McLaren', serif;
+    background-color:rgb(243, 233, 233);
+}
+
+header {   
+    width:80%;
+    margin:5px auto 10px auto;
+    background-color:white;
+    border-radius: 5px;
+    box-shadow:0.2px 0.5px 1px blue;
+}
+
+h1{
+    width:100%;
+    font-family: 'McLaren', serif;
+    font-size:1.2em;
+    text-align:center;
+}
+
+#premiere {   /*première section*/
+    width:80%;
+    margin:5px auto 10px auto;
+}
+
+.transformblockentier{
+    display:block;
+    width:100%;
+    border:none;
+}
+
+article {
+    width:98%;
+    margin:0% auto 10px auto;
+    border-radius: 5px;
+    box-shadow:0.2px 0.5px 1px blue;
+    background-color:white;
+    padding:1%;
+} 
+
+footer {
+    width:80%;
+    margin:5px auto 10px auto;
+    border-radius: 5px;
+    box-shadow:0.2px 0.5px 1px blue;
+    font-size:65%;
+    background-color:white;
+    text-align: center;
+}
+  
+div{
+    margin-bottom: 5px;
+}
+
+button{
+    font-size: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow : 10px 5px 5px grey;
+}
+button.res{
+    font-size: 150%;
+    padding: 10px;
+}
+select{
+    padding : 10px;
+    border-radius: 10px;
+}
+
+.titre{
+    display :flex ;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.titre div{
+    width : 30%;
+}
+
+.labelNoms
+{
+    display: block;
+    width : 100px;
+    float: left;
+}
+
+#conteneurConteneurCanvas{
+    display: block;
+    height: 140px;
+}
+
+#conteneurCanvas{
+    position : absolute;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "petitbac",
+  "version": "1.0.0",
+  "description": "jeu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "erwan tanguy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
